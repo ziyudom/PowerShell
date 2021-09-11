@@ -1,0 +1,3 @@
+普通に起動したらポリシーエラーで実行できないので、
+実行中のプロセスの時だけポリシー変更してやる。
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
